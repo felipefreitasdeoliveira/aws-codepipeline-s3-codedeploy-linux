@@ -32,8 +32,7 @@
   </div>
   
 <?php
-echo $_SERVER['SERVER_NAME'];
-$host = $_SERVER['HTTP_HOST'];
+$host = $_SERVER['SERVER_NAME'];
 echo $host;
 ?>
 </body>
