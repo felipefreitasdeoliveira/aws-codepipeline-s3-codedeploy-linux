@@ -33,6 +33,8 @@
   
 <?php
 echo $_SERVER['SERVER_NAME'];
+$host = $_SERVER['HTTP_HOST'];
+echo $host;
 ?>
 </body>
 </html>
